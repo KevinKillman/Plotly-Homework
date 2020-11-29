@@ -1,7 +1,7 @@
 
 
 
-d3.json('./data/samples.json').then(data => {
+d3.json('data/samples.json').then(data => {
     var dropdown = d3.select("#selDataset");
     var meta = d3.select("#sample-metadata")
     var id = data.samples.map(element => element.id);
