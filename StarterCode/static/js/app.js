@@ -122,7 +122,7 @@ d3.json('data/samples.json').then(data => {
             },
             
         }
-        Plotly.restyle('bubble', updateBubble)
+        Plotly.restyle('bubble', [updateBubble])
     })
     
 
